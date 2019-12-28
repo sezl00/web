@@ -1,0 +1,72 @@
+#js-fonds {
+    background-color: #ededed;
+}
+.info a.button {
+    color: white;
+}
+.intro__title {
+    font-weight: 500;
+}
+.intro__content p {
+    font-weight: 500;
+}
+//half gradient
+.info--gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#50bebe+0,37a7af+24,0099cb+52 */
+    background: #50bebe; /* Old browsers */
+    background: -moz-linear-gradient(left, #50bebe 0%, #37a7af 24%, #0099cb 52%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #50bebe 0%,#37a7af 24%,#0099cb 52%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #50bebe 0%,#37a7af 24%,#0099cb 52%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50bebe', endColorstr='#0099cb',GradientType=1 ); /* IE6-9 */
+}
+.section {
+    z-index: 4;
+    position: relative;
+    background-color: white;
+}
+.intro__image {
+    img {
+        position: fixed;
+    }
+    video {
+        position: fixed;
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+.videoimage {
+    display: none;
+}
+@media (max-width: 600px) {
+    .intro__image {
+        video {
+            display: none;
+        }
+        .videoimage {
+            display: block;
+        }
+    }
+}
+#o-nas {
+    z-index: 2;
+}
+.footer {
+    z-index: 2;
+}
+.section.section--bg {
+    background-color: #005578;
+}
+.info {
+    background-color: white;
+    z-index: 4;
+}
+.myproject .section--bg, .myproject .info {
+    display: none;
+}
+#kontakt p, #o-nas p {
+    margin-bottom: 20px;
+}
+.team__footer .button {
+    opacity: 1;
+}
